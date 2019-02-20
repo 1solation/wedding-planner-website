@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <!--  SETTING THE CHARACTER SET -->
 <meta charset="UTF-8">
 <!-- SETTING THE CONTENT OF THE PAGE TO BE RESPONSIVE TO DEVICE WIDTH (MOBILE FIRST) -->
@@ -7,7 +8,7 @@
 <!--  SETUP META DATA FOR THIS PAGE -->
 <meta name="keywords" content="WEDDING,PLANNER,PLAN,ASSIGNMENT,">
 <meta name="author" content="Hasib Ahmed">
-<title> Master </title>
+<title> KK Events </title>
 <!--  INCLUDE OUR CSS STYLE SHEETS, USING W3 CSS, GOOGLE APIS AND FONTAWESOME -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,6 +19,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="stylistic.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+</head>
 <body>
 <!--NAVBAR-->
 <!-- NAVBAR on big screens-->
@@ -27,16 +29,16 @@
           href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i>
             </a>
-      <a href="index.php" class="w3-bar-item w3-button"><i class="fa fa-home w3-margin-right"></i><b>KK</b>Events</a>
-          <a href="index.php#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-info-circle"></i> About</a>
-        <a href="index.php#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-th"></i> Work</a>
-        <a href="index.php#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-envelope"></i> Contact</a>
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-home w3-margin-right"></i><b>KK</b>Events</a>
+          <a href="index.html#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-info-circle"></i> About</a>
+        <a href="index.html#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-th"></i> Work</a>
+        <a href="index.html#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-envelope"></i> Contact</a>
          <a href="search.php" class="w3-bar-item w3-button w3-hide-small w3-hover-white"><i class="fa fa-search"></i> Search</a>
           <div class="w3-dropdown-hover w3-hide-small">
           <button class="w3-button" title="Locations"><i class="fa fa-globe"></i> Locations <i class="fa fa-caret-down"></i></button>     
           <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-            <a href="venues_merseyside.php" class="w3-bar-item w3-button">Merseyside</a>
-            <a href="venues_north_wales.php" class="w3-bar-item w3-button">North Wales</a>
+            <a href="venues_merseyside.html" class="w3-bar-item w3-button">Merseyside</a>
+            <a href="venues_north_wales.html" class="w3-bar-item w3-button">North Wales</a>
           </div>
         </div>
             <a href="login.php" class="w3-btn w3-round-xxlarge w3-hide-small w3-right w3-hover-grey" title="Login/Sign Up">Login</a>
@@ -50,22 +52,11 @@
           <a href="#work" class="w3-bar-item w3-button">Work</a>
           <a href="#about" class="w3-bar-item w3-button">About</a>
           <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-          <a href="venues_merseyside.php" class="w3-bar-item w3-button">Merseyside</a>
-            <a href="venues_north_wales.php" class="w3-bar-item w3-button">North Wales</a>
+          <a href="venues_merseyside.html" class="w3-bar-item w3-button">Merseyside</a>
+            <a href="venues_north_wales.html" class="w3-bar-item w3-button">North Wales</a>
           <a href="search.php" class="w3-bar-item w3-button">Search</a>
         </div>
       </div>
-<script>
-    //Used to toggle the menu on small screens when clicking on the menu button
-    function toggleFunction() {
-        var x = document.getElementById("navSmall");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-</script>
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
@@ -256,6 +247,16 @@
       
       </script>
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE08IsNxowB1UrU5pi0xiPPSoyV1NSHsY&callback=myMap"></script>
-    
+<script>
+    //Used to toggle the menu on small screens when clicking on the menu button
+    function toggleFunction() {
+        var x = document.getElementById("navSmall");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
 </body>
 </html>
